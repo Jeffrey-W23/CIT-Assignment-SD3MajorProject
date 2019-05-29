@@ -61,7 +61,7 @@
 		<input type="text" name="mail" placeholder="Email">
 		<input type="password" name="pwd" placeholder="Password">
 		<input type="password" name="pwd-repeat" placeholder="Repeat Password">
-		<Button type="submit" name="signup-submit">Signup</Button>
+		<Button class="signupbtn" type="submit" name="signup-submit">SIGNUP</Button>
 	</form>
 </main>
 
