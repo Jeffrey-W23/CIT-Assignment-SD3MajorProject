@@ -6,14 +6,6 @@
 		<!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-            <!-- Carousel Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <!-- Carousel Indicators -->
-
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide One : Gypsys Tale -->
@@ -21,10 +13,8 @@
                     <div style="background: rgba(0, 0, 0, 0.3); width:100%; height:100%;">
                         <a href="chatrooms.php">
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Gypsy's Tale - Chatroom</h3>
-                                <p style="margin-bottom: 0px;">Chat with friends and other fans about the third-person adventure game, where</p>
-                                <p style="margin-bottom: 0px;">players take control of Gypsy, an inquisitive, cheeky Golden Retriever.</p>
-                                <p></p>
+								<img src="images/gypsystitle.png" style="height:40%; width:40%;"/>
+								</br></br></br><a class="carousel-price">FREE</a></br></br>
                             </div>
                         </a>
                     </div>
@@ -36,10 +26,8 @@
                     <div style="background: rgba(0, 0, 0, 0.3); width:100%; height:100%;">
                         <a href="chatrooms.php">
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Toy Wars: Un-Bear-Able Warefare - Chatroom</h3>
-                                <p style="margin-bottom: 0px;">Chat with friends and other fans about the game that pits two hot-seated players</p>
-                                <p style="margin-bottom: 0px;">against each other in a turn-based PvP combat environment.</p>
-                                <p></p>
+                                <img src="images/toytitle.png" style="height:40%; width:40%;"/>
+								</br></br></br><a class="carousel-price">FREE</a></br></br>
                             </div>
                         </a>
                     </div>
@@ -51,10 +39,8 @@
                     <div style="background: rgba(0, 0, 0, 0.3); width:100%; height:100%;">
                         <a href="chatrooms.php">
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Zombie Game - Chatroom</h3>
-                                <p style="margin-bottom: 0px;">Chat with friends about the popular retro-style top-down zombie survival shooter.</p>
-                                <p style="margin-bottom: 0px;">retro-style top-down zombie survival shooter.</p>
-                                <p></p>
+                                <img src="images/zombietitle.png" style="height:40%; width:40%;"/>
+								</br></br></br><a class="carousel-price">FREE</a></br></br>
                             </div>
                         </a>
                     </div>
@@ -78,6 +64,137 @@
 
         </div>
         <!-- Carousel -->
+		
+		<!-- Main content background -->
+	    <section class="py-5" style="background-color: #121212;">
+	        
+	        <!-- Main content frame -->
+	        <div class="row" style="margin-left: 20%; margin-right: 20%; padding-left: 35px; padding-right: 35px; padding-bottom: 35px; vertical-align:middle; text-align:center;">
+	            
+				<!-- page content -->
+	            <div class="col-md-12" style="vertical-align:middle; text-align:center;">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="row" style="vertical-align:middle; text-align:center; background-color: transparent;">
+						
+						<h1 class="col-md-12" style="margin-top:15px; margin-bottom:15px; text-align:center; color: white;">LATEST RELEASES</h1>
+
+						
+						
+						<div style="width:50%; height:100%; background-color:transparent; float:left;">
+							
+							<div style="width:100%; height:70%; background-color:gray;">
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+								<p>dfgdfgdfg</p>
+							</div>
+							
+							<div style="width:100%; height:30%; background-color:#343a40; float:bottom;">
+								<p>dfgdfgdfg</p>
+							</div>
+						</div>
+						
+						
+						
+						<div style="width:50%; height:100%; background-color:transparent; float:right;">
+							
+							
+							
+							<div style="width:100%; height:50%; background-color:transparent; float top; padding:15px;">
+								
+								<div style="width:100%; height:70%; background-color:gray;">
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+								</div>
+								
+								<div style="width:100%; height:30%; background-color:#343a40; float:bottom;">
+									<p>dfgdfgdfg</p>
+								</div>
+							</div>
+							
+							
+							
+							<div style="width:100%; height:50%; background-color:transparent; float: bottom; padding:15px;">
+								
+								<div style="width:100%; height:70%; background-color:gray;">
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+									<p>dfgdfgdfg</p>
+								</div>
+								
+								<div style="width:100%; height:30%; background-color:#343a40; float:bottom;">
+									<p>dfgdfgdfg</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+					<p></p></br>
+	            </div>
+	        </div>
+
+	    </section>
+	    <!-- Main content background -->
 
 <!-- Add in the footer html -->
 <?php

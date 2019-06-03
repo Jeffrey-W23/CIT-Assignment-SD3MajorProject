@@ -90,7 +90,7 @@
 									else
 									{
 										// Display the login button
-										echo '<button class="login-btn " onclick="document.getElementById(\'id01\').style.display=\'block\'" style="width:auto;">LOG IN</button>';
+										echo '<button class="login-btn" onclick="document.getElementById(\'id01\').style.display=\'block\'" style="width:auto;">LOG IN</button>';
 									}
 								?>
 							</li>
@@ -125,32 +125,32 @@
     			<!-- Title and closing button -->
     			<div class="user-modal-title-container">
       				<span onclick="document.getElementById('id01').style.display='none'" class="user-modal-close" title="Close Modal">&times;</span>
-      				<h3>Log In</h3>
+      				<h3 class="user-modal-btnlabel">LOG IN</h3>
     			</div>
 
     			<!-- text box containers -->
 	    		<div class="container" style="padding: 16px;">
 	      			
 	    			<!-- username input field -->
-	      			<label for="mailuid"><b>Username</b></label>
-	      			<input type="text" placeholder="Enter Username" name="mailuid" required>
+	      			<label for="mailuid" class="user-modal-btnlabel"><b>USERNAME</b></label>
+	      			<input type="text" placeholder="USERNAME.." name="mailuid" required>
 
 	      			<!-- password input field -->
-	      			<label for="pwd"><b>Password</b></label>
-	      			<input type="password" placeholder="Enter Password" name="pwd" required>
+	      			<label for="pwd" class="user-modal-btnlabel"><b>PASSWORD</b></label>
+	      			<input type="password" placeholder="PASSWORD.." name="pwd" required>
 	        		
 	        		<!-- submit button -->
-	      			<button type="submit" type="submit" name="login-submit" class="user-modal-btn">Log in</button>
+	      			<button type="submit" type="submit" name="login-submit" class="user-modal-btn">LOG IN</button>
 	    		</div>
 
 	    		<!-- bottom container -->
-	    		<div class="container" style="background-color:#f1f1f1; padding: 16px;">
+	    		<div class="container" style="background-color:#484d53; padding: 16px;">
 	      			
 	    			<!-- closing button -->
-	      			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="user-modal-cancel" style="margin-right: 10px;">Cancel</button>
+	      			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="user-modal-cancel" style="margin-right: 10px;">CANCEL</button>
 	      			
 	      			<!-- forgot password button -->
-	      			<span class="user-modal-forgot-btn">Forgot <a href="#">password?</a></span>
+	      			<span class="user-modal-forgot-btn" style="color:#ffffff;">FORGOT <a href="#">PASSWORD?</a></span>
 	    		</div>
   			</form>
 		</div>
@@ -163,37 +163,37 @@
     			<!-- Title and closing button -->
     			<div class="user-modal-title-container">
       				<span onclick="document.getElementById('id02').style.display='none'" class="user-modal-close" title="Close Modal">&times;</span>
-      				<h3>Sign Up</h3>
+      				<h3 class="user-modal-btnlabel">SIGN UP</h3>
     			</div>
 
     			<!-- text box containers -->
 	    		<div class="container" style="padding: 16px;">
 	      			
 	    			<!-- username input field -->
-	      			<label for="uname"><b>Username</b></label>
-	      			<input type="text" name="uid" placeholder="Username" required>
+	      			<label for="uname" class="user-modal-btnlabel"><b>USERNAME</b></label>
+	      			<input type="text" name="uid" placeholder="USERNAME.." required>
 
 	      			<!-- email input field -->
-	      			<label for="mail"><b>Email</b></label>
-	      			<input type="text" name="mail" placeholder="Email" required>
+	      			<label for="mail" class="user-modal-btnlabel"><b>EMAIL</b></label>
+	      			<input type="text" name="mail" placeholder="EMAIL.." required>
 
 	      			<!-- password input field -->
-	      			<label for="pwd"><b>Password</b></label>
-	      			<input type="password" name="pwd" placeholder="Password" required>
+	      			<label for="pwd" class="user-modal-btnlabel"><b>PASSWORD</b></label>
+	      			<input type="password" name="pwd" placeholder="PASSWORD.." required>
 
 	      			<!-- password repeat input field -->
-	      			<label for="pwd-repeat"><b>Repeat Password</b></label>
-	      			<input type="password" name="pwd-repeat" placeholder="Repeat Password" required>
+	      			<label for="pwd-repeat" class="user-modal-btnlabel"><b>REPEAT PASSWORD</b></label>
+	      			<input type="password" name="pwd-repeat" placeholder="REPEAT PASSWORD.." required>
 	        
 	        		<!-- submit button -->
-	      			<button type="submit" name="signup-submit" class="user-modal-btn">Sign up</button>
+	      			<button type="submit" name="signup-submit" class="user-modal-btn" style="background-color:#3777dd;">SIGN UP</button>
 	    		</div>
 
 	    		<!-- bottom container -->
-	    		<div class="container" style="background-color:#f1f1f1; padding: 16px;">
+	    		<div class="container" style="background-color:#484d53; padding: 16px;">
 
 	    			<!-- closing button -->
-	      			<button type="button" onclick="document.getElementById('id02').style.display='none'" class="user-modal-cancel">Cancel</button>
+	      			<button type="button" onclick="document.getElementById('id02').style.display='none'" class="user-modal-cancel">CANCEL</button>
 	    		</div>
   			</form>
 		</div>
