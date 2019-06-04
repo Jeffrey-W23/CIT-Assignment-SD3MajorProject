@@ -41,10 +41,10 @@
 	    <header>
 
 		    <!-- Navigation -->
-		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2a2a2a;">
 		        <div class="container">
 
-		            <a class="navbar-brand" href="index.php">PIQUANT GAMES STORE</a>
+		            <a class="navbar-brand" href="index.php" style="color: #b3b3b3;">PIQUANT GAMES STORE</a>
 
 		            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 		                <span class="navbar-toggler-icon"></span>
@@ -60,12 +60,7 @@
 
 		                    <!-- Games -->
 		                    <li class="nav-item">
-		                        <a class="nav-link" href="chatrooms.php">GAMES</a>
-		                    </li>
-
-		                    <!-- About -->
-		                    <li class="nav-item">
-		                    	<a class="nav-link" href="about.php ">ABOUT</a>
+		                        <a class="nav-link" href="games.php">GAMES</a>
 		                    </li>
 
 		                    <!-- Spacing to seperate login and nav buttons -->
@@ -144,13 +139,13 @@
 	    		</div>
 
 	    		<!-- bottom container -->
-	    		<div class="container" style="background-color:#484d53; padding: 16px;">
+	    		<div class="container" style="background-color:#202020; padding: 16px;">
 	      			
 	    			<!-- closing button -->
 	      			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="user-modal-cancel" style="margin-right: 10px;">CANCEL</button>
 	      			
 	      			<!-- forgot password button -->
-	      			<span class="user-modal-forgot-btn" style="color:#ffffff;">FORGOT <a href="#">PASSWORD?</a></span>
+	      			<span class="user-modal-forgot-btn" style="color:#b3b3b3;">FORGOT <a href="#">PASSWORD?</a></span>
 	    		</div>
   			</form>
 		</div>
@@ -178,19 +173,16 @@
 	      			<input type="text" name="mail" placeholder="EMAIL.." required>
 
 	      			<!-- password input field -->
-	      			<label for="pwd" class="user-modal-btnlabel"><b>PASSWORD</b></label>
-	      			<input type="password" name="pwd" placeholder="PASSWORD.." required>
-
-	      			<!-- password repeat input field -->
-	      			<label for="pwd-repeat" class="user-modal-btnlabel"><b>REPEAT PASSWORD</b></label>
-	      			<input type="password" name="pwd-repeat" placeholder="REPEAT PASSWORD.." required>
+	      			<label for="pwd" class="user-modal-btnlabel"><b>PASSWORD</b></label></br>
+	      			<input type="password" name="pwd" placeholder="PASSWORD.." style="width:49.6%;" required>
+	      			<input type="password" name="pwd-repeat" placeholder="REPEAT PASSWORD.." style="width:49.6%;" required>
 	        
 	        		<!-- submit button -->
 	      			<button type="submit" name="signup-submit" class="user-modal-btn" style="background-color:#3777dd;">SIGN UP</button>
 	    		</div>
 
 	    		<!-- bottom container -->
-	    		<div class="container" style="background-color:#484d53; padding: 16px;">
+	    		<div class="container" style="background-color:#202020; padding: 16px;">
 
 	    			<!-- closing button -->
 	      			<button type="button" onclick="document.getElementById('id02').style.display='none'" class="user-modal-cancel">CANCEL</button>

@@ -90,16 +90,16 @@
 	padding: 10px 10px;
 	margin: 8px 0;
 	display: inline-block;
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 	box-sizing: border-box;
-	background-color: #292e33;
+	background-color: #202020;
 	color: white;
 }
 
 /* styling for user modal button labels */
 .user-modal-btnlabel
 {
-	color:#ffffff;
+	color:#b3b3b3;
 }
 
 /* styling for user modal buttons */
@@ -175,7 +175,7 @@ span.user-modal-forgot-btn
 /* main styling for the user modal content */
 .user-modal-content
 {
-	background-color: #343a40;
+	background-color: #2a2a2a;
 	margin: 5% auto 15% auto;
 	border: 1px solid #888;
 	width: 40%;
@@ -187,7 +187,7 @@ span.user-modal-forgot-btn
 	position: absolute;
 	right: 25px;
 	top: 0;
-	color: white;
+	color: #b3b3b3;
 	font-size: 35px;
 	font-weight: bold;
 }
