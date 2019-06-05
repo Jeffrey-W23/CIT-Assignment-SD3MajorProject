@@ -25,7 +25,7 @@
 		{
 			// new variables for database connection
 			$sql = "SELECT * FROM users WHERE uidUsers=? OR emailUsers=?;";
-			$stmt = mysqli_stmt_init($ConnectLogin);
+			$stmt = mysqli_stmt_init($ConnectDataBase);
 
 			// if database not prepared
 			if(!mysqli_stmt_prepare($stmt, $sql))

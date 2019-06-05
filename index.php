@@ -9,9 +9,9 @@
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide Two : Toy Wars  -->
-                <div class="carousel-item" style="background-image: url(images/toywarsscreenshot.png)">
+                <div class="carousel-item active" style="background-image: url(images/toywarsscreenshot.png)">
                     <div style="background: rgba(0, 0, 0, 0.3); width:100%; height:100%;">
-                        <a href="games.php">
+                        <a href="zombie.php">
                             <div class="carousel-caption d-none d-md-block">
                                 <img src="images/toytitle.png" style="height:40%; width:40%;"/>
 								</br></br></br></br>
@@ -22,9 +22,9 @@
                 <!-- Slide Two : Toy Wars  -->
                 
                 <!-- Slide Three : Zombie Game  -->
-                <div class="carousel-item active" style="background-image: url(images/zombiegif.gif)">
+                <div class="carousel-item" style="background-image: url(images/zombiegif.gif)">
                     <div style="background: rgba(0, 0, 0, 0.3); width:100%; height:100%;">
-                        <a href="games.php">
+                        <a href="zombie.php">
                             <div class="carousel-caption d-none d-md-block">
                                 <img src="images/zombietitle.png" style="height:40%; width:40%;"/>
 								</br></br></br></br>
@@ -91,7 +91,7 @@
 								</div>
 
 								<!-- game cover image -->
-								<a href="games.php"><img src="images/zombiecover1.png" style="height:100%; width:100%;"/></a>
+								<a href="zombie.php"><img src="images/zombiecover1.png" style="height:100%; width:100%;"/></a>
 							</div>
 							<!-- ZOMBIE TILE -->
 
@@ -127,7 +127,7 @@
 									</div>
 
 									<!-- game cover image -->
-									<a href="games.php"><img src="images/toywarsscreenshot.png" style="height:100%; width:100%;"/></a>
+									<a href="zombie.php"><img src="images/toywarsscreenshot.png" style="height:100%; width:100%;"/></a>
 								</div>
 								<!-- TOYWARS TILE -->
 
@@ -160,7 +160,7 @@
 									</div>
 
 									<!-- game cover image -->
-									<a href="games.php"><img src="images/gypsystalescreenshot.png" style="height:100%; width:100%;"/></a>
+									<a href="zombie.php"><img src="images/gypsystalescreenshot.png" style="height:100%; width:100%;"/></a>
 								</div>
 								<!-- GYPSYSTALE TILE -->
 

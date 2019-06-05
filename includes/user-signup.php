@@ -67,7 +67,7 @@
 		{
 			// new variables for database connection
 			$sql = "SELECT uidUsers FROM users WHERE uidUsers=?";
-			$stmt = mysqli_stmt_init($ConnectLogin);
+			$stmt = mysqli_stmt_init($ConnectDataBase);
 
 			// if database is not prepare
 			if(!mysqli_stmt_prepare($stmt, $sql))
@@ -106,7 +106,7 @@
 					$sql = "INSERT INTO users (uidUsers, emailUsers, pwdUsers) VALUES (?, ?, ?)";
 					
 					// initiate database connection
-					$stmt = mysqli_stmt_init($ConnectLogin);
+					$stmt = mysqli_stmt_init($ConnectDataBase);
 
 					// if database is not prepare
 					if (!mysqli_stmt_prepare($stmt, $sql))
@@ -140,7 +140,7 @@
 
 		// close connection to the database
 		mysqli_stmt_close($stmt);
-		mysqli_close($ConnectLogin);
+		mysqli_close($ConnectDataBase);
 
 	}
 

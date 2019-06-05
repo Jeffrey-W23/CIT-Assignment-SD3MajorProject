@@ -6,13 +6,13 @@
 	$dBPassword = "";
 
 	// login system database
-	$dbLoginSystem = "loginsystemsd3";
+	$dbMainDataBase = "piquant_games_store";
 
 	// connect to the login database
-	$ConnectLogin = mysqli_connect($servername, $dBUsername, $dBPassword, $dbLoginSystem);
+	$ConnectDataBase = mysqli_connect($servername, $dBUsername, $dBPassword, $dbMainDataBase);
 
 	// Check connection to database
-	if (!$ConnectLogin)
+	if (!$ConnectDataBase)
 	{
 		// display error message and kill connection
 		die("Connection failed: ".mysqli_connect_error());

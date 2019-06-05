@@ -42,7 +42,7 @@
 								</div>
 
 								<!-- game cover image -->
-								<a href="games.php"><img src="images/zombiecover1.png" style="height:100%; width:100%;"/></a>
+								<a href="zombie.php"><img src="images/zombiecover1.png" style="height:100%; width:100%;"/></a>
 							</div>
 							<!-- ZOMBIE TILE -->
 
@@ -78,7 +78,7 @@
 									</div>
 
 									<!-- game cover image -->
-									<a href="games.php"><img src="images/toywarsscreenshot.png" style="height:100%; width:100%;"/></a>
+									<a href="zombie.php"><img src="images/toywarsscreenshot.png" style="height:100%; width:100%;"/></a>
 								</div>
 								<!-- TOYWARS TILE -->
 
@@ -111,7 +111,7 @@
 									</div>
 
 									<!-- game cover image -->
-									<a href="games.php"><img src="images/gypsystalescreenshot.png" style="height:100%; width:100%;"/></a>
+									<a href="zombie.php"><img src="images/gypsystalescreenshot.png" style="height:100%; width:100%;"/></a>
 								</div>
 								<!-- GYPSYSTALE TILE -->
 

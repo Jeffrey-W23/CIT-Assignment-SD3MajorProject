@@ -251,3 +251,152 @@ span.user-modal-forgot-btn
   	}
 }
 /* USER LOGIN/SIGNUP MODALS */
+
+/* DOWNLOAD BUTTON STYLING */
+/* main download button styling */
+.download-btn
+{
+	background-color: #3777dd;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* main download button hover styling */
+.download-btn:hover
+{
+	opacity: 0.5;
+	color: white;
+	text-decoration: none;
+}
+
+/* styling for download and comment line seperator */
+.comment-downloadhr 
+{ 
+  display: block;
+  margin-top: 120px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0 none;
+  background-color:#2a2a2a;
+  height:2px;
+} 
+
+/* DOWNLOAD BUTTON STYLING */
+
+/* COMMENT SECTION */
+/* textarea styling in the comment section */
+.comment-section textarea
+{
+	height: 80px;
+	resize: none;
+	width: 80%;
+	padding: 10px 10px;
+	display: inline-block;
+	border: 1px solid #5b5b5b;
+	box-sizing: border-box;
+	background-color: #202020;
+	color: white;
+	float:left;
+}
+
+/* button styling in the comment section */
+.comment-section button
+{
+	width: 20%;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #b3b3b3;
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+	float left;
+}
+
+/* outer comment box styling for comment section */
+.comment-box
+{
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 1px solid #5b5b5b;
+	border-radius: 4px;
+	position: relative;
+	text-align: left;
+}
+
+/* paragraph styling in the comment box */
+.comment-box p
+{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 16px;
+	color: #b3b3b3;
+	font-weight: 100;
+}
+
+/* comment box edit form styling */
+.comment-box-editform
+{
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+
+/* comment box edit button styling */
+.comment-box-editform button
+{
+	width: 40px;
+	height: 20px;
+	color: #37dd58;
+	background-color: transparent;
+	opacity: 0.7;
+	margin:10px;
+}
+
+/* comment box edit button hover styling */
+.comment-box-editform button:hover
+{
+	opacity: 1;
+}
+
+/* comment box delete form styling */
+.comment-box-deleteform
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+/* comment box delete button styling */
+.comment-box-deleteform button
+{
+	width: 40px;
+	height: 20px;
+	color: #e25d5d;
+	background-color: transparent;
+	opacity: 0.7;
+	margin: 10px;
+	margin-right: 30px;
+}
+
+/* comment box delete button hover styling */
+.comment-box-deleteform button:hover
+{
+	opacity: 1;
+}
+/* COMMENT SECTION */
