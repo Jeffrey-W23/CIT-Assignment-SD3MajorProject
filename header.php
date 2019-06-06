@@ -63,6 +63,11 @@
 		                        <a class="nav-link" href="games.php">GAMES</a>
 		                    </li>
 
+		                    <!-- Tictactor game -->
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="tictactoe.php">TICTACTOE</a>
+		                    </li>
+
 		                    <!-- Spacing to seperate login and nav buttons -->
 		                    <li class="nav-item">
 		                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
